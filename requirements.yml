@@ -1,0 +1,7 @@
+---
+collections:
+  - ansible.posix
+  - community.general
+  - oracle.oci
+roles:
+  - scottharwell.server_setup
