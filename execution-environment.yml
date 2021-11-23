@@ -11,9 +11,8 @@ dependencies:
   python: requirements.txt
 #   system: bindep.txt
 
-# additional_build_steps:
-#   prepend: |
-#     RUN whoami
-#     RUN cat /etc/os-release
-#   append:
-#     - RUN echo This is a post-install command!
+additional_build_steps:
+  prepend: |
+    RUN microdnf reinstall tzdata -y
+  append:
+    - RUN echo This is a post-install command!
