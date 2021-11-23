@@ -2,7 +2,7 @@
 version: 1
 
 build_arg_defaults:
-  EE_BASE_IMAGE: 'docker-registry.gso.harwell.me/scottharwell/ansible-runner-with-certs:stable-2.11-latest'
+  EE_BASE_IMAGE: 'docker-registry.gso.harwell.me/scottharwell/ansible-runner-with-certs:ee-supported-rhel8-2.0.1-11'
 
 ansible_config: 'ansible.cfg'
 
