@@ -10,8 +10,8 @@ dependencies:
   galaxy: requirements.yml
   python: requirements.txt
 
-additional_build_steps:
-  prepend: |
-    RUN microdnf reinstall tzdata -y
-  append:
-    - RUN echo This is a post-install command!
+# additional_build_steps:
+#   prepend: |
+#     RUN microdnf reinstall tzdata -y
+#   append:
+#     - RUN echo This is a post-install command!

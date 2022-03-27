@@ -4,4 +4,4 @@ collections:
   - community.general
   - oracle.oci
 roles:
-  - scottharwell.server_setup
+  - name: scottharwell.server_setup
