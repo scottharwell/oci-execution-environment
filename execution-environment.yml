@@ -1,15 +1,14 @@
 ---
 version: 1
 
-build_arg_defaults:
+# build_arg_defaults:
 #  EE_BASE_IMAGE: 'docker-registry.gso.harwell.me/scottharwell/ansible-runner-with-certs:ee-supported-rhel8-1.0.0-6'
 
-ansible_config: 'ansible.cfg'
+ansible_config: "ansible.cfg"
 
 dependencies:
   galaxy: requirements.yml
   python: requirements.txt
-
 # additional_build_steps:
 #   prepend: |
 #     RUN microdnf reinstall tzdata -y
