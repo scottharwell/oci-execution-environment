@@ -1,7 +1,10 @@
 ---
 collections:
-  - ansible.posix
-  - community.general
-  - oracle.oci
+  - name: ansible.posix
+    version: 1.0.4
+  - name: community.general
+    version: 6.0.1
+  - name: oracle.oci
+    version: 3.5.0
 roles:
   - name: scottharwell.server_setup
